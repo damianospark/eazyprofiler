@@ -15,7 +15,7 @@ setup(
     cmdclass=versioneer.get_cmdclass(),
     description="EazyProfiler is forked version of Lazyprofiler which is a simple utility to collect CPU, GPU, RAM and GPU Memorystats while the program is running.",
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
     license="MIT",
     author="Damianos Park",
     author_email='damianospark@gmail.com',
