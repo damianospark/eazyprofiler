@@ -1,12 +1,12 @@
 # eazyprofiler
 -------------------------------------------
-Lazy Profiler is a simple utility to collect CPU, GPU, RAM and GPU Memory stats while the program is running.
+Easy profiler is a forked version of Lazy Profiler which is a simple utility to collect CPU, GPU, RAM and GPU Memory stats while the program is running.
 
-This project is forked from shankarpandala's repository [shankarpandala/lazyprofiler](https://github.com/shankarpandala/lazyprofiler) to append recording interval argument. More feature and usage will be appended for simpler and faster profiling.
+This project is forked from shankarpandala's repository [shankarpandala/lazyprofiler](https://github.com/shankarpandala/lazyprofiler) to append recording interval argument. More feature and usage will be appended for simpler and faster profiling in many ways
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install eazyprofiler.
 
 ```bash
 pip install eazyprofiler
