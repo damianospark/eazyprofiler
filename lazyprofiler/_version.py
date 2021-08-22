@@ -42,8 +42,8 @@ def get_config():
     cfg.VCS = "git"
     cfg.style = ""
     cfg.tag_prefix = ""
-    cfg.parentdir_prefix = "lazyprofiler-"
-    cfg.versionfile_source = "lazyprofiler/_version.py"
+    cfg.parentdir_prefix = "eazyprofiler-"
+    cfg.versionfile_source = "eazyprofiler/_version.py"
     cfg.verbose = False
     return cfg
 

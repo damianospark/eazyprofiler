@@ -1,26 +1,23 @@
-# lazyprofiler
-[![TravisCI](https://img.shields.io/travis/shankarpandala/lazyprofiler.svg)](https://travis-ci.org/shankarpandala/lazyprofiler)
-[![CircleCI](https://circleci.com/gh/shankarpandala/lazyprofiler.svg?style=svg)](https://circleci.com/gh/shankarpandala/lazyprofiler)
-[![CodeCov](https://codecov.io/gh/shankarpandala/lazyprofiler/branch/master/graph/badge.svg)](https://codecov.io/gh/shankarpandala/lazyprofiler)
-[![Downloads](https://pepy.tech/badge/lazyprofiler)](https://pepy.tech/project/lazyprofiler)
+# eazyprofiler
 -------------------------------------------
-
 Lazy Profiler is a simple utility to collect CPU, GPU, RAM and GPU Memory stats while the program is running.
 
+This project is forked from shankarpandala's repository [shankarpandala/eazyprofiler](https://github.com/shankarpandala/eazyprofiler) to append recording interval argument. More feature and usage will be appended for simpler and faster profiling.
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install lazyprofiler
+pip install eazyprofiler
 ```
 
 ## Usage
+logging interval can be set in start_log as seconds. Shorter interval than a second can be set with decimal expression (ex. 0.2=200 milliseconds)
 
 ```python
-import lazyprofiler.GetStats as gs
-pid = gs.start_log("test")
+import eazyprofiler.GetStats as gs
+pid = gs.start_log("test",2)
 """
 Do something in between
 """

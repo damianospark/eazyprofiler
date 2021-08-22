@@ -302,7 +302,7 @@ class Logger:
             if t_sleep > 0:
                 time.sleep(t_sleep)
 
-def start_log(file_name=None):
+def start_log(file_name=None, sec=0.2):
     if file_name is not None:
         if os.path.isfile(file_name + ".csv"):
             os.remove(file_name + ".csv")
@@ -312,7 +312,7 @@ def start_log(file_name=None):
             os.remove("log_compute.csv")
         logger_fname = "log_compute.csv"
 
-    proc = mp.Process(target=Logger(fname=logger_fname, refresh_interval=0.2))
+    proc = mp.Process(target=Logger(fname=logger_fname, refresh_interval=sec))
     proc.start()
 
     print("Started logging compute utilisation")

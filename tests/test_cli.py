@@ -1,4 +1,4 @@
-from lazyprofiler import cli
+from eazyprofiler import cli
 
 def test_cli_template():
     pass

@@ -1,6 +1,6 @@
 ---
 exclude_paths:
-  - 'lazyprofiler/_version.py'
+  - 'eazyprofiler/_version.py'
   - 'tests/**/*'
   - 'tests/*'
   - 'benchmarks/**/*'

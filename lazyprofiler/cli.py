@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from lazyprofiler import __version__
+from eazyprofiler import __version__
 
 def cli(args=None):
     p = ArgumentParser(
@@ -10,7 +10,7 @@ def cli(args=None):
         '-V', '--version',
         action='version',
         help='Show the conda-prefix-replacement version number and exit.',
-        version="lazyprofiler %s" % __version__,
+        version="eazyprofiler %s" % __version__,
     )
 
     args = p.parse_args(args)

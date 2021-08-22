@@ -1,2 +1,2 @@
 include versioneer.py
-include lazyprofiler/_version.py
+include eazyprofiler/_version.py

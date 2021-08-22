@@ -1,3 +1,3 @@
-from lazyprofiler import cli
+from eazyprofiler import cli
 
 cli.cli()

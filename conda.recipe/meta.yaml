@@ -2,7 +2,7 @@
 {% set data = load_setup_py_data() %}
 
 package:
-  name: lazyprofiler
+  name: eazyprofiler
   
   version: {{ data['version'] }}
 
@@ -49,7 +49,7 @@ test:
     - pytest tests
 
 about:
-  home: https://github.com/shankarpandala/lazyprofiler
+  home: https://github.com/shankarpandala/eazyprofiler
   summary: Lazy Profiler is a simple utility to collect CPU, GPU, RAM and GPU Memorystats while the program is running.
   license: {{ data.get('license') }}
   license_file: LICENSE

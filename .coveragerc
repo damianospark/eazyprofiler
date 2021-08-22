@@ -1,7 +1,7 @@
 [report]
 omit =
     setup.py
-    lazyprofiler/__main__.py
-    lazyprofiler/_version.py
+    eazyprofiler/__main__.py
+    eazyprofiler/_version.py
     versioneer.py
     tests/*
