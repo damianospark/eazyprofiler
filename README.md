@@ -2,7 +2,7 @@
 -------------------------------------------
 Lazy Profiler is a simple utility to collect CPU, GPU, RAM and GPU Memory stats while the program is running.
 
-This project is forked from shankarpandala's repository [shankarpandala/eazyprofiler](https://github.com/shankarpandala/eazyprofiler) to append recording interval argument. More feature and usage will be appended for simpler and faster profiling.
+This project is forked from shankarpandala's repository [shankarpandala/lazyprofiler](https://github.com/shankarpandala/lazyprofiler) to append recording interval argument. More feature and usage will be appended for simpler and faster profiling.
 
 ## Installation
 
